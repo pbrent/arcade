@@ -11,9 +11,9 @@ How do I display the state of the game to the user?
     Possibly a score tracker towards the top.
 
 What controls/interface to I make available to the user?
-    The user will interact with the arrow keys on their keyboard to control the direction of the snake. Once the first keydownn event occurs the snake doesn't stop moving
+    The user will interact with the arrow keys on their keyboard to control the direction of the snake. Once the first keydownn event occurs the snake doesn't stop moving until "game over"
+
 
 How does each interaction update the state?
-
 
 
