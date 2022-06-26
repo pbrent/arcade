@@ -9,8 +9,17 @@ h1 {
     margin-top: 30px;
     margin-bottom: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    
+}
+
+#scoreDisplay {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
-  
+    font-weight: bold;
+    margin-top: 20px;
+    color: darkgreen;
 }
 
 #board {
@@ -18,8 +27,6 @@ h1 {
     width: 60vmin;
     height: 60vmin;
     display: grid;
-    /* margin-left: auto;
-    margin-right: auto; */
     margin: 0 auto;
     grid-template-columns: repeat(18, 1fr);
     grid-template-rows: repeat(18, 1fr);
@@ -47,13 +54,14 @@ h1 {
     align-items: center;
 }
 
-button {
-    width: 100px;
-    height: 50px;
+#startGame {
+    width: 150px;
+    height: 75px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
   }
 
   
