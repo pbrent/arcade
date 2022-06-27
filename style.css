@@ -1,6 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Press+Start+2P&display=swap');
+
 body {
     background-color: darkgray;
-    
 }
 
 h1 {
@@ -8,14 +10,15 @@ h1 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Press Start 2P';
     font-size: 50px;
+    
     
 }
 
 #scoreDisplay {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Press Start 2P';
     font-size: 40px;
     font-weight: bold;
     margin-top: 20px;
@@ -33,7 +36,7 @@ h1 {
 }
 
 .head {
-    /* border: 2px solid limegreen;  */
+    
     border-radius: 9px;
     background-color: limegreen;
 

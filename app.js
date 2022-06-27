@@ -26,43 +26,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
 })
     
-    
-    // startBtn.onclick = function main (ctime) {
-    //     window.requestAnimationFrame(main);
-    //     if((ctime - lastPaintTime)/1000 < 1/speed){
-    //         return;
-    //     }
-    //     lastPaintTime = ctime;
-    //     gameState();
-
-    // }})
-
-   
-
-
-
-// function main(ctime) {
-//     window.requestAnimationFrame(main);
-    
-//     if((ctime - lastPaintTime)/1000 < 1/speed){
-//         return;
-//     }
-//     lastPaintTime = ctime;
-//     gameState();
-// }
-// console.log(lastPaintTime)
-
 
 
 function snakeCollide(snake) {
-    // bump into self
+   
     for (let i = 1; i < snakeArr.length; i++) {
         if(snake[i].x === snake[0].x && snake[i].y === snake[0].y){
             return true;
         }
         
     }
-    //bump into the wall
+    
     if(snake[0].x >= 18 || snake[0].x <= 0 || snake[0].y >= 18 || snake[0].y <= 0){
         return true;
     }
